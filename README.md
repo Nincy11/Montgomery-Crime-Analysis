@@ -45,3 +45,44 @@ Correlation Map
 7. What is the least desirable time to go out alone in the whole county? Additionally, when is the safest time to leave the house? How many potential victims are stuck at a
 crime scene on average during these times?
 8. When comparing crime figures from 2019 to 2020, what insights come into picture? How significant was COVID-19 in causing countywide crime trends to shift? Which part of the country had the biggest growth in safety, and which saw the most decline in security, over this phase?
+
+
+1. What kind of behaviour has the crime rates shown throughout the years? How do crimes stack up against one another when looking back over the previous five years? 
+Upon analysing the data and visualising it, we found the trend of crimes rising during the start, but then the rate of crime starts to recede after 2017 to 2022.  
+<img width="452" alt="image" src="https://github.com/Nincy11/Montgomery-Crime-Analysis/assets/46756664/d8685439-52ad-462e-b044-2888034c29c3">
+
+The percentage of crimes across the dataset, when broken down by year, shows that crimes are almost evenly distributed, with a much lower proportion before and post the pandemic. 
+<img width="265" alt="image" src="https://github.com/Nincy11/Montgomery-Crime-Analysis/assets/46756664/cf41c144-7f59-405f-8f74-68672ec9a136">
+ 
+2. What is the average response time of the police department? Response time is the period between when a crime is perpetrated or reported and when police are dispatched. 
+Statistics show that, apart from MCSO and P, all other agencies had appropriate response times to crimes, with MCFM being the fastest to react in 16 seconds and RCPD being the slowest calls in 1 minute and 12 seconds. The agency with the most crime reports, MCPD, has a response time of 51 seconds, which is the second worst but still fast enough.
+<img width="452" alt="image" src="https://github.com/Nincy11/Montgomery-Crime-Analysis/assets/46756664/124cceda-f778-4c2f-8f2b-0825515d5e2a">
+ 
+4. Which area is the most and least dangerous? How has crime performed in these areas over the past five years? What sorts of crimes are often committed in the safest and most hazardous areas? How often do criminal acts occur in these regions?  
+Upon crunching statistics to examine the most and the least hazardous regions around the county, we notice that Silver Spring is the most dangerous and Takoma Park is the least dangerous. But again, after calculating the percentages of instances that each region gets, it becomes obvious that there is a direct association between the size of the area and the number of cases received. 
+![image](https://github.com/Nincy11/Montgomery-Crime-Analysis/assets/46756664/cce480b7-fc6a-48cb-8e59-2f2a3a601d62)
+ 
+5. What sort of location (e.g., streets, residences, grocery stores, etc.) has the highest and the lowest crime rate? What kind of crimes are being perpetrated in these regions? Which location is the constantly looking least hazardous to dwell in or reside near? 
+Upon analysing the data, we can conclude that most of the crimes perpetrated throughout the last 5 years are on either streets or residential areas. With more than 40% crimes committed being distributed amongst these regions. The reason for choosing the number of victims to be greater than 20000 is that we want only those places which are unsafe. 
+ 
+![image](https://github.com/Nincy11/Montgomery-Crime-Analysis/assets/46756664/bf61ba11-c8a3-4ba1-b7a6-928a89eb855a)
+(Bar graph of the least safe locations in descending order) 
+
+6. What kinds of streets are among the most susceptible to crime, and what kinds of crimes occur on the most hazardous streets? What are the most and least desirable times to commute on the street? What kind of crimes are committed along these streets? 
+The most dangerous streets in Maryland are Georgia and Frederick, with 13803 and 9129 criminal acts, respectively. There is a significant difference in these data, indicating that Georgia Street has been the most dangerous throughout the years. In contrast, Montgomery has had little more than 1200 crimes throughout the years, making it one of the safest streets in Maryland. 
+<img width="457" alt="image" src="https://github.com/Nincy11/Montgomery-Crime-Analysis/assets/46756664/8ff5dfc9-c827-4ab8-b5f5-6c908b4e1bdb">
+(Bar graph of the most unsafe street) 
+ 
+  
+7. What is the least desirable time to go out alone in the whole county? Additionally, when is the safest time to leave the house? How many potential victims are stuck at a crime scene on average during these times?   
+ After a substantial amount of analysis, it was evident by the number of crimes perpetrated from noon to night was almost twice the number of offenses perpetrated from midnight to noon. 
+  
+<img width="390" alt="image" src="https://github.com/Nincy11/Montgomery-Crime-Analysis/assets/46756664/ca33b203-a766-4d6d-ada1-a10260ec3815">
+(Times where crime peaks) 
+ 
+8. When comparing crime figures from 2019 to 2020, what insights come into picture? How significant was COVID-19 in causing countywide crime trends to shift? Which part of the country had the biggest growth in safety, and which saw the most decline in security, over this phase? 
+By combining the data and comparing it to the number of crimes committed before and after the pandemic, we can observe that 60% of the crimes were committed prior to COVID, which, when averaged, results in 15% of crimes every year. In comparison, over 40 percent of crimes were committed during and after the epidemic, or an average of 13.3 percent every year. The crime rates have decreased from prepandemic to post-pandemic, as previously determined statistically. 
+ 	 
+Conclusion 
+The dataset supplied a wealth of insights, however we were required to spend a great deal of time curating and cleaning the data to meet our requirements. Regarding timestamps, there were several inconsistencies. We needed to standardise the time data for it to meet our needs. We were compelled to eliminate almost nine columns since they were irrelevant to the analysis that was to be conducted. Additionally, we had to synthesis many columns to get data and insights from them. To guarantee that only non-essential data and columns were removed and that null values were handled effectively, the first data analysis required much brainstorming. Exploratory data analysis revealed a new universe of opportunities. We addressed correlation, determined which columns are strongly associated, and used them for most of the EDA. We saw peculiar tendencies and correlational patterns that made sense. 
+Using data visualisation tools, a whole new viewpoint on data became apparent. With matplotlib and seaborn, everything was difficult to grasp with statistics and number crunching got simplified. Many significant insights were generated from the data that were not apparent from the data alone, making it simpler to spot trends and discern patterns. 
